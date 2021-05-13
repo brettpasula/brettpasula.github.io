@@ -1,0 +1,32 @@
+body { 
+    font-family: Roboto;
+}
+
+.wrapper {
+    margin: auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: min-content;
+}
+
+.header { 
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.about { 
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.projects { 
+    grid-column: 2;
+    grid-row: 2;
+} 
+
+.contact { 
+    grid-column: 3;
+    grid-row: 2;
+}
