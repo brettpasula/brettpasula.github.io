@@ -1,2 +1,2 @@
-# brettpasula.github.io
+# [brettpasula.github.io](https://brettpasula.github.io)
 Personal website (work in progress as of June 2021)
