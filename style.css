@@ -16,13 +16,13 @@ body {
     grid-row: 1;
 }
 
+li { 
+    margin: 5px;
+}
+
 .about { 
     grid-column: 1;
     grid-row: 2;
-}
-
-.about li { 
-    margin: 5px;
 }
 
 .contact { 
