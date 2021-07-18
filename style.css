@@ -5,10 +5,11 @@ body {
 .wrapper {
     margin: auto;
     width: 750px;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: min-content;
-    height: 100%;
+    grid-auto-flow: column;
 }
 
 .header { 
@@ -34,4 +35,11 @@ li {
     grid-column: 2; 
     grid-row: 3;
     text-align: right;
+}
+
+/* https://stackoverflow.com/questions/32583341/how-can-i-rearrange-elements-in-this-way-from-mobile-to-desktop-on-this-web-page */
+@media screen and (max-width: 750px) { 
+    .wrapper {
+        display: inline;
+    }
 }
